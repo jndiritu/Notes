@@ -1,6 +1,6 @@
 #
 
-## Automatically
+## Automatically Switch Php version
 
 Choose from a List of all available php versions installed
 
@@ -8,15 +8,15 @@ Choose from a List of all available php versions installed
 sudo update-alternatives --config php
 ```
 
-## Manually
+## Manually Switch Php version
 
-### Enable
+### Enable php version
 
 ```
 sudo a2enmod php7.2
 ```
 
-### disable
+### disable php version
 
 ```
 sudo a2dismod php5
